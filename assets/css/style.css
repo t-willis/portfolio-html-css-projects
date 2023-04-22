@@ -13,7 +13,7 @@ body {
     align-items: center;
     background-color: #C9DEFF;
     margin: auto;
-    min-width: 375px;
+    min-width: 300px;
     max-width: 800px;
 }
 
@@ -74,34 +74,56 @@ header ul li::after {
     background-repeat: no-repeat;
 }
 
-/* section class styling things */
-/* section {
-    margin-bottom: 50px;
-} */
 
-#about-me {
-    display: inline-flex;
+
+/* about me id */
+.about-me {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #AAC7F5;
     justify-content: center;
     padding: 20px;
     gap: 20px;
+    flex: 1 1 50%;
 }
 
-.main-content article {
+.about-me article {
     width: 70%;
     font-size: 75%;
 }
-
-/* .main-content img {
-    width: 30%;
-} */
 
 .card {
     background-color: #AAC7F5;
     padding: 5px;
 }
+
+
+/* work projects */
+.work-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #AAC7F5;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feat-proj img {
+    height: auto;
+    width: 100%;
+}
+
+.reg-proj {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 30%;
+    gap: 10px;
+}
+
+
 
 /* Media query for screen width to force flex-direction to column */
 @media screen and (max-width: 768px) {
