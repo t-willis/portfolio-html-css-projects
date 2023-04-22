@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* body formatting */
 body {
     font-size: 24px;
     line-height: 1.5;
@@ -11,11 +12,14 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #C9DEFF;
+    margin: auto;
+    min-width: 400px;
+    max-width: 800px;
 }
 
 /* nav bar link formatting */
 nav a {
-    color:#000000;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -23,6 +27,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
 
 /* header things */
 header {
@@ -31,7 +39,7 @@ header {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 100%;
     padding: 10px;
     background-color: #AAC7F5;
     color: #000000;
@@ -43,6 +51,8 @@ header h1 {
 
 header ul {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 header ul li {
@@ -57,10 +67,44 @@ header ul li::after {
 /* spacer-image things */
 .spacer-image {
     height: 100px;
-    width: 60%;
-    margin-bottom: 20px;
+    width: 100%;
     background-image: url(../images/spacer-image-1.png);
     background-size: cover 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+/* section class styling things */
+/* section {
+    margin-bottom: 50px;
+} */
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #AAC7F5;
+    padding: 20px;
+    gap: 20px;
+    flex: 1 1 50%;
+}
+
+/* #about-me {
+    flex-wrap: wrap;
+    flex: 1 0 50%;
+} */
+
+.main-content article {
+    width: 65%;
+    font-size: 75%;
+}
+
+/* .main-content img {
+    width: 30%;
+} */
+
+.card {
+    background-color: #AAC7F5;
+    padding: 5px;
+    border-bottom: 10px;
 }
