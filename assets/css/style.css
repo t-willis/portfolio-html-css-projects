@@ -13,7 +13,7 @@ body {
     align-items: center;
     background-color: #C9DEFF;
     margin: auto;
-    min-width: 400px;
+    min-width: 375px;
     max-width: 800px;
 }
 
@@ -80,22 +80,17 @@ header ul li::after {
 } */
 
 #about-me {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #AAC7F5;
+    justify-content: center;
     padding: 20px;
     gap: 20px;
-    flex: 1 1 50%;
 }
 
-/* #about-me {
-    flex-wrap: wrap;
-    flex: 1 0 50%;
-} */
-
 .main-content article {
-    width: 65%;
+    width: 70%;
     font-size: 75%;
 }
 
@@ -106,5 +101,14 @@ header ul li::after {
 .card {
     background-color: #AAC7F5;
     padding: 5px;
-    border-bottom: 10px;
 }
+
+/* Media query for screen width to force flex-direction to column */
+@media screen and (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+    header {
+        flex-direction: column;
+    }
+  }
