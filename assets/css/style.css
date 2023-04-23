@@ -140,8 +140,14 @@ header ul li::after {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
 }
+
+.contact-info img {
+    height: 40px;
+    width: 120px;
+}
+
 
 
 footer {
@@ -160,6 +166,10 @@ footer {
         flex-direction: column;
     }
     .about-me {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-info {
         flex-direction: column;
         align-items: center;
     }
