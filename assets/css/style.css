@@ -44,7 +44,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 10px;
+    padding: 0 10px 5px 10px;
     background-color: #C7BBB3;
     color: #000;
     position: sticky;
@@ -52,6 +52,7 @@ header {
     box-shadow: 0 4px 5px -5px;
     z-index: 3;
     opacity: 80%;
+    border-top: solid 10px #3ca7ac7e;
 }
 
 header h1 {
@@ -133,6 +134,7 @@ header ul li::after {
     background-color: #C7BBB3;
     padding: 10px 0px 0px 20px;
     text-align: left;
+    border-top: solid 20px #3ca7ac7e;
 }
 
 .card h3 {
