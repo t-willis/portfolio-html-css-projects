@@ -59,7 +59,8 @@ header {
 header h1 {
     font-weight: 700;
     font-size: 150%;
-    color: #000;
+    color: #000000;
+    text-decoration: underline #3ca7ac;
 }
 
 h2 {
