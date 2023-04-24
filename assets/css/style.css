@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     /* background-color: #323232; */
-    background-image: linear-gradient(180deg, #ADADAD, #3CA7AC);
+    background-image: linear-gradient(180deg, #ADADAD, #3ca7ac9d);
     margin: auto;
     min-width: auto;
     max-width: 800px;
@@ -286,7 +286,7 @@ header ul li::after {
 
 
 footer {
-    background-color: #3CA7AC;
+    background-color: #3ca7ac00;
     width: 100%;
     text-align: center;
     padding: 25px 0;
