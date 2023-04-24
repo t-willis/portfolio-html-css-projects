@@ -302,6 +302,8 @@ footer {
 }
 
 /* Media query for screen width to force flex-direction to column */
+
+
 @media screen and (max-width: 768px) {
     body {
         flex-direction: column;
