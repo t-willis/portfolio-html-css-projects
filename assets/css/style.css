@@ -129,6 +129,8 @@ header ul li::after {
 .about-me img {
     max-height: 250px;
     max-width: 350px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0 4px 5px -5px;
 }
 
 .card {
@@ -289,6 +291,15 @@ header ul li::after {
     transition: 0.5s ease;
 }
 
+.contact-info a {
+    color: #000;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    text-decoration-color: #3CA7AC;
+}
 
 
 footer {
