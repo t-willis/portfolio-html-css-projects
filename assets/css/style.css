@@ -6,7 +6,7 @@
 
 /* body formatting */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial b, Helvetica, sans-serif;
     font-size: 24px;
     line-height: 1.5;
     display: flex;
@@ -38,7 +38,6 @@ main {
 
 /* header things */
 header {
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -52,7 +51,7 @@ header {
     box-shadow: 0 4px 5px -5px;
     z-index: 3;
     opacity: 80%;
-    border-top: solid 10px #3ca7ac7e;
+    border-top: solid 10px #3ca7ac41;
 }
 
 header h1 {
@@ -134,11 +133,10 @@ header ul li::after {
     background-color: #C7BBB3;
     padding: 10px 0px 0px 20px;
     text-align: left;
-    border-top: solid 20px #3ca7ac7e;
+    border-top: solid 20px #3ca7ac41;
 }
 
 .card h3 {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 100%;
 }
@@ -168,7 +166,6 @@ header ul li::after {
 
 .bottom-left {
     position: absolute;
-    font-family: arial;
     bottom: 20px;
     left: 10px;
     background-color: #c7bbb381;
@@ -255,7 +252,6 @@ header ul li::after {
     background-color: #c7bbb381;
     color: #000;
     padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;
     z-index: 1;
     border: 1px solid #000;
     box-shadow: 3px 3px 3px #0000007a;
