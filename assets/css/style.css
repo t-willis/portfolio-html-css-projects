@@ -20,11 +20,12 @@ body {
 /* nav bar link formatting */
 nav a {
     color: #000000;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 nav a:hover {
     text-decoration: underline;
+    text-decoration-color: #fff;
 }
 
 main {
@@ -79,6 +80,13 @@ header ul li::after {
     margin-bottom: 40px;
 }
 
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 
 /* about me id */
@@ -109,9 +117,7 @@ header ul li::after {
 .card {
     background-color: #AAC7F5;
     padding: 5px;
-    position: relative;
     text-align: center;
-    
 }
 
 .card h3 {
@@ -262,7 +268,7 @@ footer {
 /* Media query for screen width to force flex-direction to column */
 @media screen and (max-width: 768px) {
     body {
-      flex-direction: column;
+        flex-direction: column;
     }
     header {
         flex-direction: column;
