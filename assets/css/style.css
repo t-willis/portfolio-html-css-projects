@@ -23,12 +23,14 @@ body {
 nav a {
     color: #000000;
     text-decoration: underline;
+    transition: 0.2s ease;
 }
 
 nav a:hover {
     text-decoration: underline;
     text-decoration-color: #3CA7AC;
     box-shadow: 0 4px 5px -5px;
+    transition: 0.2s ease;
 }
 
 main {
@@ -279,6 +281,12 @@ header ul li::after {
 .contact-info img {
     height: 40px;
     width: 120px;
+    transition: 0.5s ease;
+}
+
+.contact-info img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
 }
 
 
