@@ -180,7 +180,7 @@ header ul li::after {
     height: auto;
     width: 100%;
     transition: 0.5s ease;
-    filter: blur(2px);
+    filter: blur(1px);
 }
 
 /* Text hovering over feat-proj img formatting ~ PRE HOVER ~ */
@@ -227,7 +227,6 @@ header ul li::after {
 }
 
 
-
 /* reg-proj image sizing */
 .reg-proj img {
     height: 125px;
@@ -244,7 +243,7 @@ header ul li::after {
 /* image formatting within reg-proj-container ~ PRE HOVER ~ */
 .reg-proj-container img {
     transition: 0.5s ease;
-    filter: blur(2px);
+    filter: blur(1px);
 }
 
 /* text formatting for h3 within reg-proj-container ~ PRE HOVER ~ */
